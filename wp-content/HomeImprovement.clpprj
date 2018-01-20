@@ -3,8 +3,85 @@
 	<settings><PM_URL><![CDATA[http://localhost/HomeImprovment/wp-content/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/HomeImprovment/wp-content/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\functions.php"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\style.css"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\header.php"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\geodirectory\geodir-home.php"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\geodirectory\add-listing.php"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\index.php"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page.php"/>
 	</lastopfiles>
 	<todoblock>
+		<todofile name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-select.php">
+			<todo name="todo Write example setup attribute value" pos="25;38"/>
+			<todo name="todo Write example setup attribute value" pos="25;39"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\getresponse\getresponse.php">
+			<todo name="todo Implement all conditions, this is unfinished" pos="5;150"/>
+			<todo name="todo Implement all conditions, this is unfinished" pos="5;274"/>
+			<todo name="todo Implement multivalue customs." pos="5;401"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\infusionsoft\xmlrpc-3.0\lib\xmlrpc.inc">
+			<todo name="@todo add to iso table the characters from cp_1252 range, i.e. 128 to 159" pos="3;124"/>
+			<todo name="todo do a bit of basic benchmarking (strtr vs. str_replace)" pos="4;249"/>
+			<todo name="todo    make usage of iconv() or recode_string() or mb_string() where available" pos="4;250"/>
+			<todo name="@todo shall we replace this with a (supposedly) faster str_replace" pos="23;291"/>
+			<todo name="@todo optimization creep: save this check into a bool variable, instead of using count() every tim" pos="11;380"/>
+			<todo name="@todo we could check for 2 VALUE elements inside a MEMBER or PARAM element" pos="19;406"/>
+			<todo name="@todo we could check for 2 NAME elements inside a MEMBER element" pos="19;461"/>
+			<todo name="@todo optimization creep: move this inside the big switch() above" pos="11;500"/>
+			<todo name="@todo this needs to treat correctly php-serialized objects," pos="23;547"/>
+			<todo name="@todo: optimization creep - remove the if/elseif cycle below" pos="19;569"/>
+			<todo name="@todo check for failure of base64 decoding / catch warnings" pos="23;580"/>
+			<todo name="@todo: find a better way of throwing an error than this!" pos="27;602"/>
+			<todo name="@todo find a better way of throwing an error than this!" pos="27;613"/>
+			<todo name="todo check correctness of urlencoding cookie value (copied from php way of doing it...)" pos="8;1006"/>
+			<todo name="@todo we should use a better check here - what if we get back '' or '0'" pos="25;1493"/>
+			<todo name="@todo test this code branch..." pos="14;1617"/>
+			<todo name="@todo remove usage of @: it is apparently quite slow" pos="27;1642"/>
+			<todo name="todo add check that $val / $fcode / $fstr is of correct type???" pos="8;1718"/>
+			<todo name="@todo try to build something serializable" pos="23;1823"/>
+			<todo name="todo add 2nd &amp; 3rd param to be passed to ParseResponse() ???" pos="8;1982"/>
+			<todo name="@todo some other headers (the ones that allow a CSV list of values)" pos="19;2071"/>
+			<todo name="@todo support for server sending multiple time cookie with same name, but using different PATHs" pos="25;2092"/>
+			<todo name="@todo with version 1 cookies, we should strip leading and trailing &quot; chars" pos="31;2098"/>
+			<todo name="@todo version1 cookies might span multiple lines, thus breaking the parsing above" pos="19;2114"/>
+			<todo name="@todo return an error msg if $data==''" pos="11;2230"/>
+			<todo name="@todo echo something for user" pos="19;2316"/>
+			<todo name="@todo we should test here if server sent an int and a string," pos="19;2342"/>
+			<todo name="@todo: optimization creep - do not call addXX, do it all inline." pos="11;2384"/>
+			<todo name="todo add some checking for $vals to be an array of xmlrpcvals?" pos="8;2488"/>
+			<todo name="todo add some checking for $vals to be an array?" pos="8;2512"/>
+			<todo name="@todo should we raise a warning for class not found" pos="15;2945"/>
+			<todo name="@todo 'guestimate' encoding" pos="7;3110"/>
+			<todo name="todo explore usage of mb_http_input(): does it detect http headers + post data? if so, use it instea" pos="4;3224"/>
+			<todo name="@todo this test will pass if ANY header has charset specification, not only Content-Type. Fix it" pos="7;3242"/>
+			<todo name="@todo implement check as described above" pos="7;3253"/>
+			<todo name="@todo implement check for first bytes of string even without a BOM" pos="7;3254"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\infusionsoft\xmlrpc-3.0\lib\xmlrpc_wrappers.inc">
+			<todo name="todo separate introspection from code generation for func-2-method wrapping" pos="4;10"/>
+			<todo name="todo use some better templating system for code generation?" pos="4;11"/>
+			<todo name="todo implement method wrapping with preservation of php objs in calls" pos="4;12"/>
+			<todo name="todo when wrapping methods without obj rebuilding, use return_type = 'phpvals' (faster)" pos="4;13"/>
+			<todo name="todo implement self-parsing of php code for PHP &lt;= 4" pos="4;14"/>
+			<todo name="todo decide how to deal with params passed by ref: bomb out or allow?" pos="4;135"/>
+			<todo name="todo finish using javadoc info to build method sig if all params are named but out of order" pos="4;136"/>
+			<todo name="todo add a check for params of 'resource' type" pos="4;137"/>
+			<todo name="todo add some trigger_errors / error_log when returning false?" pos="4;138"/>
+			<todo name="todo what to do when the PHP function returns NULL? we are currently returning an empty string value" pos="4;139"/>
+			<todo name="todo add an option to suppress php warnings in invocation of user function, similar to server debug" pos="4;140"/>
+			<todo name="todo if $newfuncname is empty, we could use create_user_func instead of eval, as it is possibly fast" pos="4;141"/>
+			<todo name="todo add a verbatim_object_copy parameter to allow avoiding the same obj instance?" pos="4;142"/>
+			<todo name="@todo add more checks for static vs. nonstatic" pos="19;253"/>
+			<todo name="@todo examine if $paramDocs matches $parsvariations and build array for" pos="6;477"/>
+			<todo name="todo get_class_methods will return both static and non-static methods." pos="7;495"/>
+			<todo name="@todo add function setdebug() to new class, to enable/disable debugging" pos="7;764"/>
+			<todo name="@todo build javadoc for class definition, too" pos="7;774"/>
+		</todofile>
+		<todofile name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\infusionsoft\xmlrpc-3.0\lib\xmlrpcs.inc">
+			<todo name="@todo we should parse q=0.x preferences instead of getting first charset specified..." pos="8;867"/>
+			<todo name="@todo check if mbstring is enabled and automagic input conversion is on: it might mingle with this" pos="6;899"/>
+			<todo name="@todo use an ampty string for php 5" pos="7;950"/>
+		</todofile>
 		<todofile name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodir_advance_search_filters\geodirectory_advance_search_function.php">
 			<todo name="@todo limiting category searches by location has problems on large DB, find b" pos="40;2341"/>
 		</todofile>
@@ -134,6 +211,11 @@
 		</todofile>
 	</todoblock>
 	<filescache>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\icons\index.html" crc="1516258746"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\cache\index.html" crc="1516258745"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\cache\6-layout-draft.js" crc="1516436366"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\cache\6-layout-draft.css" crc="1516436366"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\index.html" crc="1516258693"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\twentysixteen\template-parts\content.php" crc="1496157704"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\twentysixteen\template-parts\content-single.php" crc="1496157704"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\twentysixteen\template-parts\content-search.php" crc="1496157704"/>
@@ -261,17 +343,20 @@
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\twentyfifteen\404.php" crc="1418713222"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\js\supreme.js" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\inc\index.php" crc="1516168581"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\inc\geodirectory-compatibility.php" crc="1516168581"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\inc\geodirectory-compatibility.php" crc="1516437030"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\geodirectory\geodir-home.php" crc="1516442828"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\geodirectory\add-listing.php" crc="1516437641"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\woocommerce.php" crc="1516168581"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\style.css" crc="1516187987"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\style.css" crc="1516437546"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\single.php" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\rtl.css" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\readme.txt" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page_full-width.php" crc="1516168581"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page.php" crc="1516168581"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page.php" crc="1516435938"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\license.txt" crc="1516168581"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\index.php" crc="1516186089"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\functions.php" crc="1516187743"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\index.php" crc="1516435917"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\header.php" crc="1516435958"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\functions.php" crc="1516435306"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\content.php" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\content-blog.php" crc="1516186032"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\change_log.txt" crc="1516168581"/>
@@ -1538,6 +1623,457 @@
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodir_advance_search_filters\geodir_advance_search_filters.php" crc="1516169413"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodir_advance_search_filters\gd_upgrade.php" crc="1516169412"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodir_advance_search_filters\gd_update.php" crc="1516169412"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\views\manage.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\views\import.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\views\edit.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\settings\settings.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\settings\settings-fields.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\settings\render-fields.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\settings\editor-preview.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\admin-menus\class-settings-menu.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\admin-menus\class-manage-menu.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\admin-menus\class-import-menu.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\admin-menus\class-edit-menu.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\admin-menus\class-admin-menu.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\upgrade.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\snippet-ops.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\functions.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\editor.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\class-snippet.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\class-shortcode.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\class-list-table.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\class-export.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\class-db.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\class-contextual-help.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\class-code-snippets.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\php\class-admin.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\js\min\tag-it.js" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\js\min\codemirror.js" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\zenburn.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\yeti.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\xq-light.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\xq-dark.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\vibrant-ink.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\twilight.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\ttcn.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\tomorrow-night-eighties.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\tomorrow-night-bright.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\the-matrix.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\solarized.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\seti.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\rubyblue.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\railscasts.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\pastel-on-dark.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\paraiso-light.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\paraiso-dark.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\panda-syntax.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\night.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\neo.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\neat.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\monokai.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\midnight.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\mdn-like.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\mbo.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\material.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\liquibyte.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\lesser-dark.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\isotope.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\icecoder.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\hopscotch.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\erlang-dark.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\elegant.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\eclipse.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\duotone-light.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\duotone-dark.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\dracula.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\colorforth.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\cobalt.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\blackboard.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\bespin.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\base16-light.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\base16-dark.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\ambiance.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\ambiance-mobile.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\abcdef.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\3024-night.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\cmthemes\3024-day.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\tagit.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\settings.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\menu-icon.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\manage.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\edit.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\codemirror.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\css\min\_ordering.css" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\uninstall.php" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\readme.txt" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\license.txt" crc="1516430484"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\code-snippets\code-snippets.php" crc="1516430483"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\widget\js\settings.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\widget\includes\settings-text-widget.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\widget\includes\settings-general.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\widget\includes\frontend.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\widget\widget.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\video\js\frontend.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\video\includes\frontend.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\video\css\frontend.responsive.css" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\video\css\frontend.css" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\video\video.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\sidebar\includes\settings-general.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\sidebar\includes\frontend.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\sidebar\sidebar.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\rich-text\includes\frontend.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\rich-text\rich-text.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\photo\js\settings.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\photo\includes\frontend.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\photo\includes\frontend.js.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\photo\css\frontend.responsive.css" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\photo\photo.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\html\js\settings.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\html\includes\frontend.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\html\html.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\audio\js\settings.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\audio\includes\frontend.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\audio\css\frontend.css" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\modules\audio\audio.php" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\worker-javascript.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\worker-html.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\worker-css.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\theme-chrome.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\mode-javascript.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\mode-html.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\mode-css.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\mode-abap.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\keybinding-vim.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\keybinding-emacs.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-whitespace.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-themelist.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-textarea.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-statusbar.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-static_highlight.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-split.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-spellcheck.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-settings_menu.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-searchbox.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-old_ie.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-modelist.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-linking.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-language_tools.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-keybinding_menu.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-error_marker.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-emmet.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-elastic_tabstops_lite.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-chromevox.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ext-beautify.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\ace\ace.js" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\yui3.min.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\mousetrap-custom.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.wookmark.min.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.waypoints.min.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.validate.min.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.ui.sortable.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.tiptip.min.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.simulate.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.showhideevents.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.nanoscroller.min.js" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.multiselect.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.mosaicflow.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.magnificpopup.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.infinitescroll.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.imagesloaded.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.fitvids.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.easing.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.bxslider.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.autoSuggest.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\jquery.actual.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-stylesheet.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-slideshow.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-slideshow.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-lightbox.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-icon-selector.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-gallery-grid.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-color-picker.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-ui.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-ui-settings-forms.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-ui-pinned.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-ui-panel-content-library.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-ui-main-menu.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-tour.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-simulate-media-query.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-services.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-search.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-save-manager.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-revisions.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-responsive-editing.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-preview.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-layout.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-export.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-ajax-layout.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-admin-settings.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\fl-builder-admin-posts.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\js\bootstrap-tour-standalone.min.js" crc="1516258649"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\sendy\SendyPHP.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\sendinblue\Mailin.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\ReCaptcha\RequestMethod\SocketPost.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\ReCaptcha\RequestMethod\Socket.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\ReCaptcha\RequestMethod\Post.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\ReCaptcha\RequestMethod\CurlPost.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\ReCaptcha\RequestMethod\Curl.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\ReCaptcha\Response.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\ReCaptcha\RequestParameters.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\ReCaptcha\RequestMethod.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\ReCaptcha\ReCaptcha.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\recaptcha\autoload.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailerlite\ML_Rest_Base.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailerlite\ML_Rest.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Vip.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Users.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Templates.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Reports.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Neapolitan.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Mobile.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Lists.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Helper.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Goal.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Gallery.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Folders.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Exceptions.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Ecomm.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Conversations.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\Mailchimp\Campaigns.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\mailchimp\mailchimp.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\madmimi\Spyc.class.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\madmimi\MadMimi.class.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\infusionsoft\xmlrpc-3.0\lib\xmlrpcs.inc" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\infusionsoft\xmlrpc-3.0\lib\xmlrpc_wrappers.inc" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\infusionsoft\xmlrpc-3.0\lib\xmlrpc.inc" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\infusionsoft\isdk.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\icontact\iContactProApi.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\icontact\iContactApi.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\godaddy-email-marketing\class-godaddy-em.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\getresponse\getresponse.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\Enormail\Rest.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\Enormail\Mailings.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\Enormail\Lists.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\Enormail\Forms.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\Enormail\Contacts.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\Enormail\Base.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\Enormail\ApiException.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\Enormail\ApiClient.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\Enormail\Account.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\enormail\autoload.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\drip\Drip_API.class.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\convertkit\ConvertKit.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\class\transport.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\class\services_json.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\class\serialisation.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\class\log.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\class\exceptions.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\class\base_classes.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\csrest_templates.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\csrest_subscribers.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\csrest_segments.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\csrest_people.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\csrest_lists.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\csrest_general.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\csrest_clients.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\csrest_campaigns.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\campaign-monitor\csrest_administrators.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\oauth_application.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\oauth_adapter.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\exceptions.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\curl_response.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\curl_object.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\aweber_response.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\aweber_entry_data_array.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\aweber_entry.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\aweber_collection.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\aweber_api.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\aweber\aweber.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Webhook.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\User.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Tracking.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Subscriber.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Settings.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Message.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\List.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Group.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Form.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Design.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Deal.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Contact.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Connector.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\config.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Campaign.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Automation.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Auth.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\ActiveCampaign.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\vendor\activecampaign\Account.class.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\updater\includes\subscriptions.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\updater\includes\form.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\updater\includes\config.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\updater\classes\class-fl-updater.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\updater\updater.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\updater-config.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-settings-form.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-settings-form-row.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-settings-config.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-service-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-loop-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-legacy-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-legacy-field.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-legacy-custom-field.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-js-templates.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-js-config.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-video.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-unit.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-timezone.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-time.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-textarea.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-text.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-suggest.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-select.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-post-type.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-photo.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-photo-sizes.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-ordering.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-multiple-photos.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-multiple-audios.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-link.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-layout.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-icon.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-form.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-font.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-editor.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-dimension.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-color.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-code.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-button.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-extras.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-bar.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-bar-title-area.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\strings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\row.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\row-video.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\row-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\row-js.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\row-css.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\module.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\module-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\loop-settings-matching.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\layout-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\layout-js-config.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\jquery.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\icon-selector.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\global-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\export.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\export-filters.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\compatibility.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\column.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\column-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\column-group.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\column-css.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\admin-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\admin-settings-welcome.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\admin-settings-user-access.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\admin-settings-upgrade.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\admin-settings-tools.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\admin-settings-post-types.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\admin-settings-modules.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\admin-settings-js-config.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\admin-posts.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\extensions\fl-builder-multisite\classes\class-fl-builder-multisite.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\extensions\fl-builder-multisite\fl-builder-multisite.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\yui3.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\jquery.tiptip.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\jquery.nanoscroller.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\jquery.multiselect.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\jquery.magnificpopup.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\jquery.bxslider.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\jquery.autoSuggest.min.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\font-awesome.min.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-slideshow.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-lightbox.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-icon-selector.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-color-picker.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder.min.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-ui-skin-dark.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-rtl.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-layout.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-layout-rtl.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-layout-responsive.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-layout-medium.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-layout-button-defaults.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-layout-auto-spacing.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-export.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-admin-settings.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-admin-posts.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\fl-builder-admin-posts-legacy.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\editor.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\css\bootstrap-tour-standalone.min.css" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-jsmin.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-wpcli-command.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-utils.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-user-settings.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-user-access.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-update.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ui-settings-forms.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ui-content-panel.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-timezones.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-shortcodes.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-services.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-sendy.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-sendinblue.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-mailrelay.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-mailpoet.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-mailerlite.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-mailchimp.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-madmimi.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-infusionsoft.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-icontact.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-icontact-pro.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-hatchbuck.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-godaddy-email-marketing.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-getresponse.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-enormail.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-email-address.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-drip.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-convertkit.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-constant-contact.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-campayn.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-campaign-monitor.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-aweber.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-service-activecampaign.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-revisions.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-photo.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-module.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-model.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-loop.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-loader.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-importer.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-import.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-icons.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-fonts.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-extensions.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-export.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-debug.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-color.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-auto-suggest.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-ajax-layout.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-admin.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-admin-settings.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\classes\class-fl-builder-admin-posts.php" crc="1516258646"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\readme.txt" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\license.txt" crc="1516258650"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\index.php" crc="1516258648"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\fl-builder.php" crc="1516258647"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\changelog.txt" crc="1516258646"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\akismet\views\stats.php" crc="1481815736"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\akismet\views\start.php" crc="1499298420"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\akismet\views\notice.php" crc="1513171362"/>
