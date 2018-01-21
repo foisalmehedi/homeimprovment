@@ -86,7 +86,6 @@ do_action('geodir_wrapper_close', 'home-page');
  * @since 1.1.0
  */
 do_action('geodir_sidebar_home_bottom_section');
-?>
-<?php_2)
+
 //get footer
 get_footer();

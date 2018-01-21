@@ -722,3 +722,45 @@ function sd_footer_copyright_default() {
     }
 }
 add_action( 'dt_footer_copyright', 'sd_footer_copyright_default', 10 );
+
+
+
+
+
+/* Customization by Foisal Mehedi
+
+* Home Page Custom Code
+* Date: 21-01-2018
+
+*/
+add_theme_support('post-thumbnails'); 
+add_filter('jpeg_quality', function($arg){return 100;});
+
+/*function fm_enqueue_my_scripts() {
+    // jQuery is stated as a dependancy of bootstrap-js - it will be loaded by WordPress before the BS scripts 
+    wp_enqueue_script( 'bootstrap-js', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', array('jquery'), true); // all the bootstrap javascript goodness
+}
+add_action('wp_enqueue_scripts', 'fm_enqueue_my_scripts');
+
+function fm_enqueue_my_styles() {
+    wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' );
+}
+add_action('wp_enqueue_scripts', 'fm_enqueue_my_styles');*/
+
+
+
+
+function wpb_widgets_init() {
+ 
+    register_sidebar( array(
+        'name'          => 'Home page featured area widget',
+        'id'            => 'home-featured-widget',
+        'before_widget' => '<div class="chw-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="chw-title">',
+        'after_title'   => '</h2>',
+    ) );
+ 
+}
+add_action( 'widgets_init', 'wpb_widgets_init' );
+

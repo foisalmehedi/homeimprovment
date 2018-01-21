@@ -8,6 +8,7 @@
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\geodirectory\add-listing.php"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\index.php"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page.php"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\front-page.php"/>
 	</lastopfiles>
 	<todoblock>
 		<todofile name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-select.php">
@@ -215,6 +216,8 @@
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\cache\index.html" crc="1516258745"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\cache\6-layout-draft.js" crc="1516436366"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\cache\6-layout-draft.css" crc="1516436366"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\cache\122-layout.js" crc="1516527093"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\cache\122-layout.css" crc="1516527093"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\uploads\bb-plugin\index.html" crc="1516258693"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\twentysixteen\template-parts\content.php" crc="1496157704"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\twentysixteen\template-parts\content-single.php" crc="1496157704"/>
@@ -344,20 +347,21 @@
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\js\supreme.js" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\inc\index.php" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\inc\geodirectory-compatibility.php" crc="1516437030"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\geodirectory\geodir-home.php" crc="1516442828"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\geodirectory\add-listing.php" crc="1516437641"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\geodirectory\geodir-home.php" crc="1516522496"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\geodirectory\add-listing.php" crc="1516522102"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\woocommerce.php" crc="1516168581"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\style.css" crc="1516437546"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\style.css" crc="1516535404"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\single.php" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\rtl.css" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\readme.txt" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page_full-width.php" crc="1516168581"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page.php" crc="1516435938"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page.php" crc="1516523107"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\license.txt" crc="1516168581"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\index.php" crc="1516435917"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\index.php" crc="1516523110"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\header.php" crc="1516435958"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\functions.php" crc="1516435306"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\content.php" crc="1516168581"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\functions.php" crc="1516533990"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\front-page.php" crc="1516534058"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\content.php" crc="1516522717"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\content-blog.php" crc="1516186032"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\change_log.txt" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\author.php" crc="1516168581"/>
@@ -990,9 +994,9 @@
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\geodir-signup.php" crc="1516168339"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\geodir-search.php" crc="1516168339"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\geodir-location.php" crc="1516168339"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\geodir-listing.php" crc="1516168339"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\geodir-listing.php" crc="1516521674"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\geodir-information.php" crc="1516168339"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\geodir-home.php" crc="1516168339"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\geodir-home.php" crc="1516518123"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\geodir-author.php" crc="1516168339"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-templates\add-listing.php" crc="1516168339"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\geodirectory\geodirectory-languages\index.php" crc="1516168339"/>
