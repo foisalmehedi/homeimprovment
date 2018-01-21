@@ -17,11 +17,68 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* hide titles */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,400i,700');
+/*Custom styles*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,500,500i,600,700,800');
+
 body
 {
-	font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
+.fm_featured_area
+{
+	
+	min-width: 100%; 
+	min-height: 688px;  
+	background-color: transparent;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat; 
+}
+.fm_home_search_container
+{
+width: 50%;
+min-height: 100px;
+margin: 0 auto;
+background-color: rgba(0, 0, 0, 0.7);
+position: absolute;
+left: 15%;
+right: 15%;
+top: 10%;
+padding: 25px;
+}
+.fm_featured-title
+{
+	
+	font-weight: 300;
+font-size: 30px;
+color: #ffffff;
+text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*End Custom styles*/
+
 body.sd #geodir_content > header.entry-header {
     display: none;
 }
@@ -137,10 +194,7 @@ body.sd {
 .sd-homepage .featured-area, .sd-location .featured-area {
     height: 100vh;
 }
-body.home .featured-area
-{
-	display: none;
-}
+
 .sd-homepage .container .featured-area, .sd-location .container .featured-area {
     height: inherit;
 }
