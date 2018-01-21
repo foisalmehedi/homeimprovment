@@ -18,11 +18,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* hide titles */
 
 /*Custom styles*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,500,500i,600,700,800');
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,400i,500,500i,600,700,800');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,500,500i,700,900');
 
 body
 {
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
 }
 .fm_featured_area
 {
@@ -40,26 +42,31 @@ body
 }
 .fm_home_search_container
 {
-width: 50%;
 min-height: 100px;
-margin: 0 auto;
 background-color: rgba(0, 0, 0, 0.7);
-position: absolute;
-left: 15%;
-right: 15%;
-top: 10%;
-padding: 25px;
+
 }
 .fm_featured-title
 {
 	
-	font-weight: 300;
-font-size: 30px;
 color: #ffffff;
-text-transform: uppercase;
+font-weight: 200;
+font-size: 36px;
+color: #ffffff;
+text-align: center;
+}
+.fm_featured-title strong
+{
+	font-weight: 400;
 }
 
-
+#primary-nav ul li a
+{
+font-weight: 400;
+font-size: 14px;
+letter-spacing: 1px;
+text-transform: none;
+}
 
 
 
@@ -124,6 +131,10 @@ body.sd {
     width: 100%;
     z-index: 1111;
     border-bottom: 1px solid #eee;
+}
+.site-header
+{
+	border-bottom: 1px solid #eeeeee !important;
 }
 
 .registration.buddypress.sd-homepage .site-header {
@@ -288,7 +299,7 @@ body.sd {
 }
 
 .sd .near-compass:hover {
-    color: #ed6d62;
+    color: #6fda44;
 }
 
 .sd.home .featured-area .geodir-category-list-in, .sd.sd-location .featured-area .geodir-category-list-in {
@@ -1332,7 +1343,7 @@ body.body_fullscreen #gd_listing_map_wrapper{
 
 .sd .geodir-details-sidebar-user-links a.geodir-addtofav-icon,
 .sd .geodir-details-sidebar-user-links a.geodir-removetofav-icon {
-    color: #ed6d62;
+    color: #6fda44;
     font-size: 15px;
 }
 

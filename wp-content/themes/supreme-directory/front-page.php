@@ -10,7 +10,8 @@ get_header();
 
 <?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full');  ?>
 <div class="fm_featured_area" style="background-image: url('<?php echo $featured_img_url ?>');">
-<div class="fm_home_search_container">
+<div style="height: 100px;"></div>
+<div class="container fm_home_search_container">
 	<?php
  
 if ( is_active_sidebar( 'home-featured-widget' ) ) : ?>
