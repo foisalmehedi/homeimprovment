@@ -23,6 +23,9 @@ if ( is_active_sidebar( 'home-featured-widget' ) ) : ?>
 
 </div>
 </div>
+<div class="container">
+	<?php the_content(); ?>
+</div>
 
 <?php
 ###### TOP CONTENT ######
