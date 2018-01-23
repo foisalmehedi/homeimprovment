@@ -13,3 +13,6 @@ https://www.luckywelivehere.com/
 https://www.arbolife.com
 https://sweeten.com/
 https://www.zillow.com/
+
+
+- This version seems ok in desktop
