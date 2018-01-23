@@ -1,4 +1,4 @@
-Primary Color / Heighlight Color: #6fda44  - Light Green
+Primary Color / Heighlight Color: #6fda44   - Light Green
 
 Button Color / Link Color: #2cb52c  - Dark Green
 
@@ -12,7 +12,3 @@ Paragraph Text : #444444
 https://www.luckywelivehere.com/
 https://www.arbolife.com
 https://sweeten.com/
-https://www.zillow.com/
-
-
-- This version seems ok in desktop
