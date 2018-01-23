@@ -1,4 +1,4 @@
-Primary Color / Heighlight Color: #6fda44   - Light Green
+Primary Color / Heighlight Color: #6fda44  - Light Green
 
 Button Color / Link Color: #2cb52c  - Dark Green
 
