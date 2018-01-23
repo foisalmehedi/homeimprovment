@@ -857,13 +857,21 @@ a#hideMap {
     z-index: 111;
     right: 0;
     width: 270px;
-    background: #2F2F2F;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-top: none;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding: 15px;
+	color: #444444;
+	font-size: 14px;
+	-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
 }
 
 .sd-my-account-dd .avatar {
@@ -928,6 +936,7 @@ a#hideMap {
 
 .sd-register {
     padding-bottom: 10px;
+    padding-top: 15px;
 }
 
 
