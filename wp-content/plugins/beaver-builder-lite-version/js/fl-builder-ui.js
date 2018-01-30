@@ -673,61 +673,6 @@
         },
     };
 
-    var BrowserState = {
-
-        isEditing: true,
-
-        /**
-         * Init the browser state controller
-         *
-         * @return void
-         */
-        init: function() {
-
-            if ( history.pushState ) {
-                FLBuilder.addHook('endEditingSession', this.onLeaveBuilder.bind(this) );
-                FLBuilder.addHook('restartEditingSession', this.onEnterBuilder.bind(this) );
-                history.pushState( {}, document.title, FLBuilderConfig.editUrl );
-                window.onpopstate = this.onPopHistoryState.bind(this);
-            }
-        },
-
-        /**
-         * Handle restarting the edit session.
-         *
-         * @return void
-         */
-        onEnterBuilder: function() {
-            history.replaceState( {}, document.title, FLBuilderConfig.editUrl );
-            this.isEditing = true;
-        },
-
-        /**
-         * Handle exiting the builder.
-         *
-         * @return void
-         */
-        onLeaveBuilder: function() {
-            history.replaceState( {}, document.title, FLBuilderConfig.url );
-            this.isEditing = false;
-        },
-
-        /**
-         * Handle change browser history state.
-         *
-         * @var {Event} e
-         * @return void
-         */
-        onPopHistoryState: function(e) {
-            if ( ! this.isEditing && window.location.search.indexOf( 'fl_builder' ) > -1 ) {
-                FLBuilder.triggerHook('restartEditingSession');
-            } else if ( this.isEditing ) {
-                FLBuilder.triggerHook('endEditingSession');
-            }
-        },
-    };
-
-
     /**
     * Content Library Search
     */
@@ -1002,6 +947,10 @@
 
             if (originalPosition !== currentPosition) {
 
+                if ( FLBuilderConfig.isRtl ) {
+                    edge = ( 'w' == edge ) ? 'e' : 'w'; // Flip the direction
+                }
+
                 if (originalPosition > currentPosition) {
                     if (edge === 'w') {
                         this.drag.operation = '+';
@@ -1175,7 +1124,6 @@
         KeyShortcuts.init();
         KeyShortcutsUI.init();
         EditingUI.init();
-        BrowserState.init();
         RowResize.init();
         PublishActions.init();
 

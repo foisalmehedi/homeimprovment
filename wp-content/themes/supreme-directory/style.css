@@ -132,10 +132,71 @@ border-radius: 3px;
 
 
 
+.geodir_category_list_view li.geodir-gridview .geodir-content .geodir-entry-content {
+    display: inline;
+}
 
+.geodir_category_list_view li.geodir-gridview.gridview_onehalf .geodir-content .geodir-entry-content {
+    display: inline;
+}
 
+.gd-star-rating
+{
+	float: left !important;
+}
+.geodir-pcomments
+{
+	font-size:14px !important;
+}
 
-
+.sd .geodir_category_list_view li.geodir-gridview h3
+{
+	margin-top:7px !important;
+}
+li.geodir-gridview
+{
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+li.geodir-gridview:hover 
+{ 
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+cursor: pointer;
+}
+div.geodir-content 
+{
+padding: 2px 16px;	
+}
+footer.geodir-entry-meta
+{
+	padding: 2px 16px;	
+}
+.sd .geodir_category_list_view li.gridview_onefourth {
+    margin-bottom: 20px !important;
+}
+#primary-nav ul .sub-menu a {
+    background-color: #ffffff ;
+    min-height: 20px !important;
+    line-height: 20px !important;
+}
+dd.geodir-tab-active a small {
+    color: #ffffff;
+}
+.fm-list-phone i
+{
+	margin-right: 7px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	color: #2cb52c;
+}
+.fm-list-phone
+{
+line-height:20px;	
+color: #2cb52c;
+font-weight: 600;
+letter-spacing: 1px;
+}
 
 
 
@@ -627,7 +688,7 @@ SIDEBARS CSS END
 }
 
 .sd .geodir_category_list_view li.geodir-gridview {
-    border: 0 none !important;
+   /* border: 0 none !important;*/
 }
 
 .sd .geodir_category_list_view li.gridview_onehalf {
@@ -642,7 +703,7 @@ SIDEBARS CSS END
 
 .sd .geodir_category_list_view li.gridview_onefourth {
     margin: 0 13px 0 0;
-    width: calc(25% - 12px);
+    width: calc(24% - 12px);
 }
 
 .sd .geodir_category_list_view li.gridview_onefifth {
