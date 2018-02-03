@@ -6,7 +6,7 @@ Heading Text / Gray text: #4b4b4b
 
 Paragraph Text : #444444
 
-
+front end listing: http://localhost/homeimprovment/add-listing/?listing_type=gd_contractors
 
 
 https://www.luckywelivehere.com/

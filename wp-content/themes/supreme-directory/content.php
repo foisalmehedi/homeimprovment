@@ -104,4 +104,3 @@
 
     </div>
 </article>
-<h1>Hello world</h1>

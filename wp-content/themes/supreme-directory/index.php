@@ -5,17 +5,17 @@
         <div class="header-wrap">
 
             <h1 class="entry-title">
-            test
+            
                 <?php
                 if ( is_search() ) {
                     echo __('Your Search Results for ', 'supreme-directory').get_search_query(false);
                 } else {
-                    echo get_the_title($page_for_posts);
+                    echo get_the_title();
                 }
                 ?>
             </h1>
-            <?php if (get_post_meta($page_for_posts, 'subtitle', true)) {
-                echo '<div class="entry-subtitle">' . get_post_meta($page_for_posts, 'subtitle', true) . '</div>';
+            <?php if (get_post_meta( 'subtitle', true)) {
+                echo '<div class="entry-subtitle">' . get_post_meta('subtitle', true) . '</div>';
             } ?>
 
         </div>

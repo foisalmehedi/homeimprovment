@@ -204,8 +204,6 @@ letter-spacing: 1px;
 }
 
 
-
-
 /*End Custom styles*/
 
 body.sd #geodir_content > header.entry-header {
@@ -1854,4 +1852,12 @@ fix iOS bug not displaying 100vh correctly
     .home .featured-area, .sd-location .featured-area{
         height: 320px;
     }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .site-logo-wrap
+    {
+		width:80% !important;
+	}
 }
