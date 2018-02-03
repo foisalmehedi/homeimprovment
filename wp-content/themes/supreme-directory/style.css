@@ -198,7 +198,10 @@ font-weight: 600;
 letter-spacing: 1px;
 }
 
-
+.copyright-text a:hover
+{
+	color:#6fda44;
+}
 
 
 

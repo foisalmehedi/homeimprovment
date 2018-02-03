@@ -708,12 +708,12 @@ function sd_hide_banner_on_uwp_pages($metadata, $object_id, $meta_key, $single) 
 function sd_footer_copyright_default() {
     $dt_disable_footer_credits = esc_attr(get_theme_mod('dt_disable_footer_credits', DT_DISABLE_FOOTER_CREDITS));
     if ($dt_disable_footer_credits != '1') {
-        $theme_name = "Supreme Directory";
-        $theme_url = "https://wordpress.org/themes/supreme-directory/";
+        $theme_name = "Home Improvement Contractors";
+        $theme_url = "https://homeimprovementcontractors.com";
 
         $wp_link = '<a href="https://wordpress.org/" target="_blank" title="' . esc_attr__('WordPress', 'supreme-directory') . '"><span>' . __('WordPress', 'supreme-directory') . '</span></a>';
-        $default_footer_value = sprintf(__('Copyright &copy; %1$s %2$s %3$s Theme %4$s', 'supreme-directory'),date('Y'),"<a href='$theme_url' target='_blank' title='$theme_name'>", $theme_name, "</a>");
-        $default_footer_value .= sprintf(__(' - Powered by %s.', 'supreme-directory'), $wp_link);
+        $default_footer_value = sprintf(__('Copyright &copy; %1$s %2$s %3$s %4$s', 'supreme-directory'),date('Y'),"<a href='$theme_url' target='_blank' title='$theme_name'>", $theme_name, "</a>");
+       // $default_footer_value .= sprintf(__(' - Powered by %s.', 'supreme-directory'), $wp_link);
 
         echo $default_footer_value;
 
@@ -763,4 +763,5 @@ function wpb_widgets_init() {
  
 }
 add_action( 'widgets_init', 'wpb_widgets_init' );
+
 
