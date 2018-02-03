@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\xampp\htdocs\HomeImprovment\wp-content\HomeImprovement.clpprj">
 	<removed value=";"/><added value=""/><lastopfiles>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\index.php"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\style.css"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\functions.php"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\js\supreme.js"/>
 	</lastopfiles>
 	<todoblock>
 		<todofile name="C:\xampp\htdocs\HomeImprovment\wp-content\plugins\beaver-builder-lite-version\includes\ui-field-select.php">
@@ -366,12 +362,12 @@
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page_full-width.php" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\page.php" crc="1516523107"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\license.txt" crc="1516168581"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\index.php" crc="1517649852"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\index.php" crc="1517654112"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\header.php" crc="1516435958"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\functions.php" crc="1517638481"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\front-page.php" crc="1516604663"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\content.php" crc="1517636778"/>
-		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\content-blog.php" crc="1516186032"/>
+		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\content-blog.php" crc="1517656034"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\change_log.txt" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\author.php" crc="1516168581"/>
 		<file name="C:\xampp\htdocs\HomeImprovment\wp-content\themes\supreme-directory\archive.php" crc="1516168581"/>

@@ -17,6 +17,7 @@
     <div class="container">
         <div class="entry-content entry-summary">
             <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+            <div class="summery"><?php the_excerpt(); ?></div>
         </div>
         <footer class="entry-footer">
             <?php supreme_entry_meta(); ?>
